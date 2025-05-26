@@ -1,7 +1,9 @@
 package com.dimensionred.glintbegone.mixin;
 
+import com.dimensionred.glintbegone.GlintBegoneConfig;
 import com.dimensionred.glintbegone.ItemWithNbt;
 import com.dimensionred.glintbegone.GlintBegoneClient;
+import com.dimensionred.glintbegone.NbtTagMatcher;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -15,11 +17,17 @@ public class NoGlintMixin {
 	private void disableGlint(CallbackInfoReturnable<Boolean> cir) {
 		ItemStack stack = (ItemStack) (Object) this;
 
-		for (ItemWithNbt entry : GlintBegoneClient.CONFIG.disabledItems) {
+		GlintBegoneConfig config = GlintBegoneClient.CONFIG;
+
+		for (ItemWithNbt entry : config.disabledItems) {
 			if (entry.matches(stack)) {
 				cir.setReturnValue(false);
 				return;
 			}
+		}
+
+		if (NbtTagMatcher.matchesAnyNbtTag(stack, config.disabledNbtTags)) {
+			cir.setReturnValue(false);
 		}
 	}
 }

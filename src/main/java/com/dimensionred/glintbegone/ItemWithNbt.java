@@ -1,8 +1,5 @@
 package com.dimensionred.glintbegone;
 
-import com.google.gson.*;
-import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
@@ -12,7 +9,6 @@ import net.minecraft.nbt.StringNbtReader;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -23,21 +19,17 @@ public class ItemWithNbt {
     public String nbt;
 
     public boolean matches(ItemStack stack) {
-        // Проверка соответствия предмета
         Item item = Registry.ITEM.get(new Identifier(itemId));
         if (stack.getItem() != item) return false;
 
-        // Если NBT не указан в конфиге - подходит любой предмет
         if (nbt == null || nbt.isEmpty()) return true;
 
         try {
             NbtCompound targetNbt = StringNbtReader.parse(nbt);
             NbtCompound actualNbt = stack.getNbt();
 
-            // Если у предмета нет NBT - не подходит
             if (actualNbt == null) return false;
 
-            // Проверка частичного совпадения NBT
             return containsAllNbt(targetNbt, actualNbt);
         } catch (Exception e) {
             return false;
@@ -49,7 +41,6 @@ public class ItemWithNbt {
             NbtElement targetElement = target.get(key);
             NbtElement actualElement = actual.get(key);
 
-            // Рекурсивная проверка элементов
             if (!elementContains(targetElement, actualElement)) {
                 return false;
             }
@@ -72,13 +63,11 @@ public class ItemWithNbt {
     }
 
     private static boolean listContains(NbtList targetList, NbtList actualList) {
-        // Создаем копию списка для модификации
         List<NbtElement> actualElements = new ArrayList<>(actualList.size());
         for (NbtElement element : actualList) {
             actualElements.add(element);
         }
 
-        // Проверяем все элементы целевого списка
         for (NbtElement targetElement : targetList) {
             boolean found = false;
             Iterator<NbtElement> iterator = actualElements.iterator();

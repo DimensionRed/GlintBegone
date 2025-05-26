@@ -8,8 +8,9 @@
 		"DimensionRed"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/DimensionRed/GlintBegone"
+		"homepage": "https://modrinth.com/project/glint-begone",
+		"sources": "https://github.com/DimensionRed/GlintBegone",
+		"issues": "https://github.com/DimensionRed/GlintBegone/issues"
 	},
 	"license": "GPL-3.0",
 	"icon": "assets/glintbegone/icon.png",

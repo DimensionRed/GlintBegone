@@ -10,8 +10,8 @@
 ---
 
 ## 🌐 Languages:
-- [English](https://github.com/DimensionRed/GlintBegone/README.md)
-- [Русский](https://github.com/DimensionRed/GlintBegone/lang/README_ru.md)
+- [English](https://github.com/DimensionRed/GlintBegone/blob/master/README.md)
+- [Русский](https://github.com/DimensionRed/GlintBegone/blob/master/lang/README_ru.md)
 
 ---
 

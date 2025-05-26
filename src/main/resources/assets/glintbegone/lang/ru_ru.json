@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.glintbegone.option.disabledItems": "Убрать эффект чар со следующих предметов:",
+  "text.autoconfig.glintbegone.title": "Лист мода Glint Begone",
+  "text.autoconfig.glintbegone.option.ItemWithNbt": "Предмет",
+  "text.autoconfig.glintbegone.option.ItemWithNbt.itemId": "Айди",
+  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "НБТ"
+}

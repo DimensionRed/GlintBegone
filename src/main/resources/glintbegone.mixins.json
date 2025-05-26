@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.dimensionred.glintbegone.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "NoGlintMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "modmenu:api": {
+    "modmenu": {
+      "mods": {
+        "glintbegone": {
+          "configScreenFactory": "me.shedaniel.autoconfig.gui.ConfigScreenFactory"
+        }
+      }
+    }
+  }
+}

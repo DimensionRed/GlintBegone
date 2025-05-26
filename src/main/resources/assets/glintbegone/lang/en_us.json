@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.glintbegone.option.disabledItems": "Disable enchantment glint for:",
+  "text.autoconfig.glintbegone.title": "Glint Begone List",
+  "text.autoconfig.glintbegone.option.ItemWithNbt": "Item",
+  "text.autoconfig.glintbegone.option.ItemWithNbt.itemId": "Id",
+  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "nbt"
+}

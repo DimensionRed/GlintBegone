@@ -40,7 +40,7 @@ Use [ModMenu](https://modrinth.com/mod/modmenu) for an easier interface.
   "disabledItems": [
     {
       "itemId": "minecraft:written_book",
-      "nbt": "{display:{Name:'{\"text\":\"Мемуары\"}'}}"
+      "nbt": "{display:{Name:'{\"text\":\"Memoirs\"}'}}"
     }
   ]
 }

@@ -3,5 +3,6 @@
   "text.autoconfig.glintbegone.title": "No Sparklez List",
   "text.autoconfig.glintbegone.option.ItemWithNbt": "Aitem",
   "text.autoconfig.glintbegone.option.ItemWithNbt.itemId": "AiDee",
-  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "NBT stufz"
+  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "NBT stufz",
+  "text.autoconfig.glintbegone.option.disabledNbtTags": "no shineh on dese tegz"
 }

@@ -3,5 +3,6 @@
   "text.autoconfig.glintbegone.title": "Glint Begone List",
   "text.autoconfig.glintbegone.option.ItemWithNbt": "Item",
   "text.autoconfig.glintbegone.option.ItemWithNbt.itemId": "Id",
-  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "nbt"
+  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "Nbt",
+  "text.autoconfig.glintbegone.option.disabledNbtTags": "Disabled Nbt Tags"
 }

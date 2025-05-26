@@ -3,5 +3,6 @@
   "text.autoconfig.glintbegone.title": "Лист мода Glint Begone",
   "text.autoconfig.glintbegone.option.ItemWithNbt": "Предмет",
   "text.autoconfig.glintbegone.option.ItemWithNbt.itemId": "Айди",
-  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "НБТ"
+  "text.autoconfig.glintbegone.option.ItemWithNbt.nbt": "НБТ",
+  "text.autoconfig.glintbegone.option.disabledNbtTags": "Эффект выключен при данных НБТ тегах:"
 }

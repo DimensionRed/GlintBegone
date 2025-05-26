@@ -2,10 +2,10 @@
 
 ![](https://img.shields.io/badge/Mod%20Loader-Fabric-blue?style=for-the-badge)
 ![](https://img.shields.io/badge/Env-Client-green?style=for-the-badge)
-[![Curseforge Page](https://img.shields.io/badge/Curseforge-Page-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/foul-service)
-[![Modrinth Page](https://img.shields.io/badge/Modrinth-Page-1bd96a?style=for-the-badge&logo=modrinth)](https://modrinth.com/project/foul-service)
-[![Github](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/DimensionRed/FoulService)
-[![Minecraft Inside](https://img.shields.io/badge/Minecraft--Inside-Page-violet?style=for-the-badge)](https://minecraft-inside.ru/mods/181530-fouls-service.html)
+[![Curseforge Page](https://img.shields.io/badge/Curseforge-Page-orange?style=for-the-badge&logo=curseforge)]()
+[![Modrinth Page](https://img.shields.io/badge/Modrinth-Page-1bd96a?style=for-the-badge&logo=modrinth)]()
+[![Github](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/DimensionRed/GlintBegone)
+[![Minecraft Inside](https://img.shields.io/badge/Minecraft--Inside-Page-violet?style=for-the-badge)]()
 
 ---
 

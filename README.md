@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Mod%20Loader-Fabric-blue?style=for-the-badge)
 ![](https://img.shields.io/badge/Env-Client-green?style=for-the-badge)
 [![Curseforge Page](https://img.shields.io/badge/Curseforge-Page-orange?style=for-the-badge&logo=curseforge)]()
-[![Modrinth Page](https://img.shields.io/badge/Modrinth-Page-1bd96a?style=for-the-badge&logo=modrinth)]()
+[![Modrinth Page](https://img.shields.io/badge/Modrinth-Page-1bd96a?style=for-the-badge&logo=modrinth)](https://modrinth.com/project/glint-begone)
 [![Github](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/DimensionRed/GlintBegone)
 [![Minecraft Inside](https://img.shields.io/badge/Minecraft--Inside-Page-violet?style=for-the-badge)]()
 
@@ -19,12 +19,12 @@
 Ever wanted to remove the **enchanted glint** from items? Especially when they **don't even have** any enchantments?
 **Glint Begone** is here to wipe that visual noise off your screen.
 
-### 🔧 How it works:
+## 🔧 How it works:
 In the config file, you can list item IDs (with optional NBT) for which the glint will be removed.
 Use [ModMenu](https://modrinth.com/mod/modmenu) for an easier interface.
 
 
-### 📊 Examples:
+## 📊 Examples:
 
 | Config                                                                         | In-game Item	 | Result                                                                 |
 |--------------------------------------------------------------------------------|----------------|------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ Use [ModMenu](https://modrinth.com/mod/modmenu) for an easier interface.
 
 ---
 
-### ⚙️ Sample config:
+## ⚙️ Sample config:
 
 ```json
 {
@@ -47,5 +47,5 @@ Use [ModMenu](https://modrinth.com/mod/modmenu) for an easier interface.
 
 ```
 
-### Requirements
+## Requirements
 - [Cloth Config API](https://modrinth.com/mod/cloth-config)

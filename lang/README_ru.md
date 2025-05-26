@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Mod%20Loader-Fabric-blue?style=for-the-badge)
 ![](https://img.shields.io/badge/Env-Client-green?style=for-the-badge)
 [![Curseforge Page](https://img.shields.io/badge/Curseforge-Page-orange?style=for-the-badge&logo=curseforge)]()
-[![Modrinth Page](https://img.shields.io/badge/Modrinth-Page-1bd96a?style=for-the-badge&logo=modrinth)]()
+[![Modrinth Page](https://img.shields.io/badge/Modrinth-Page-1bd96a?style=for-the-badge&logo=modrinth)](https://modrinth.com/project/glint-begone)
 [![Github](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/DimensionRed/GlintBegone)
 [![Minecraft Inside](https://img.shields.io/badge/Minecraft--Inside-Page-violet?style=for-the-badge)]()
 
@@ -19,14 +19,14 @@
 У вас когда-нибудь появлялось желание избавиться от **эффекта чар** на предметах? Особенно на тех, на которых есть этот эффект, но **нет чар** как таковых. 
 **Glint Begone** призван избавить вас от этого визуального мусора.
 
-### 🔧 Принцип работы:
+## 🔧 Принцип работы:
 Мод позволяет убирать эффект чар с предметов:
 - По `itemId`
 - Или по `itemId` **вместе с NBT**
 
 Рекомендуется установить [ModMenu](https://modrinth.com/mod/modmenu) для удобной настройки конфигурации во время игры.
 
-### 📊 Примеры:
+## 📊 Примеры:
 
 | Промпт конфигурации | Предмет в игре | Результат |
 |--------------------|----------------|-----------|
@@ -35,7 +35,7 @@
 
 ---
 
-### ⚙️ Пример текстового конфига:
+## ⚙️ Пример текстового конфига:
 
 ```json
 {
@@ -48,5 +48,5 @@
 }
 ```
 
-### Требования
+## Требования
 - [Cloth Config API](https://modrinth.com/mod/cloth-config)
